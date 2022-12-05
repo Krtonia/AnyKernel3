@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Kawaii kernel by Excraze & Xisan
+kernel.string=Kawaii kernel by Shikhar & Xisan
 do.devicecheck=1
 do.modules=0
 do.systemless=1
