@@ -29,12 +29,7 @@ no_magisk_check=1
 . tools/ak3-core.sh
 
 # RADIOACTIVE Banner
-ui_print "__________             .___.__                     __  .__              "
-ui_print "\______   \_____     __| _/|__| _________    _____/  |_|__|__  __ ____  "
-ui_print " |       _/\__  \   / __ | |  |/  _ \__  \ _/ ___\   __\  \  \/ // __ \ "
-ui_print " |    |   \ / __ \_/ /_/ | |  (  <_> ) __ \\  \___|  | |  |\   /\  ___/ "
-ui_print " |____|_  /(____  /\____ | |__|\____(____  /\___  >__| |__| \_/  \___  >"
-ui_print "        \/      \/      \/               \/     \/                   \/ "
+ui_print "Flashing Radioactive Kernel"
 
 # boot install
 if [ -L "/dev/block/bootdevice/by-name/init_boot_a" -o -L "/dev/block/by-name/init_boot_a" ]; then
